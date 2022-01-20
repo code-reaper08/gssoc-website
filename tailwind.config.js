@@ -4,7 +4,16 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      serif: ["Rubik", "ui-sans-serif"],
+    },
+    extend: {
+      colors: {
+        primary_orange: {
+          0: "#FF7A19",
+        },
+      },
+    },
   },
   plugins: [],
 };
