@@ -17,10 +17,65 @@ export default function Home() {
         </style>
       </Head>
       {/* Vishwa - https://github.com/GSSoC-Web/gssoc-website/projects/1#card-76402159 */}
+      <div className="flex flex-col items-center mb-24">
+        <div className="flex flex-col w-[1136px]">
+          <p className="text-gray-200 text-5xl font-extrabold mb-10">
+            Some of the{" "}
+            <span className="text-primary_orange-0 text-5xl font-extrabold">
+              participating Organisations!
+            </span>
+          </p>
+          <div className="org__box flex flex-row items-center">
+            {/* org1 */}
+            <img
+              className="w-20 h-auto mr-12"
+              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              alt="logo"
+            />
+            {/* org2 */}
+            <img
+              className="w-20 h-auto mr-12"
+              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              alt="logo"
+            />
+            {/* org3 */}
+            <img
+              className="w-20 h-auto mr-12"
+              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              alt="logo"
+            />
+            {/* org4 */}
+            <img
+              className="w-20 h-auto mr-12"
+              src="https://img.icons8.com/color/344/visual-studio-2019.png"
+              alt="logo"
+            />
+            <div>
+              <p className="font-serif font-semibold text-3xl text-gray-200">
+                and more...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* 
 
+
+
+
+
+
+
+
+
+
+
+
+
+*/}
       <div className="main__wrapper flex flex-col items-center">
         {/* Be a part of GSSoC */}
-        <div className="flex flex-col">
+        <div className="flex flex-col w-[1136px]">
           <p className="text-gray-200 text-5xl font-extrabold mb-10">
             <span className="text-primary_orange-0 text-5xl font-extrabold">
               Be a part of &nbsp;
